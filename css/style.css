@@ -1,0 +1,39 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.container{
+    background-image:url(../images/beach.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 3rem;
+    background-color: aliceblue;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container #clock{
+    background-color: #000;
+    width: 30vw;
+}
+.container #clock span{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Poppins';
+    margin-left: 5px;
+}
+
+@media(max-width:662px){
+    .container #clock span{
+        font-size:2rem;
+    }
+}
